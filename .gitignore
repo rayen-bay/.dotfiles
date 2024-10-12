@@ -1,0 +1,6 @@
+#Compiled Packer
+plugin/
+
+#node JS
+after/plugin/node_modules
+
