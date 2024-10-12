@@ -21,8 +21,12 @@ return require('packer').startup(function(use)
 	  tag = '0.1.8',
 	  requires = { {'nvim-lua/plenary.nvim'} }
 	}
-
+	--
+	--NerdTree
+	use {'preservim/nerdtree'}
 	-- Theme
 	use { "rose-pine/neovim", as = "rose-pine" }
 	use { "catppuccin/nvim", as = "catppuccin" }
+
+
 end)
